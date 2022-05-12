@@ -1,0 +1,62 @@
+footer {
+  background-color: var(--white);
+  clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
+}
+
+.footer-content {
+  padding: 100px 200px;
+  padding-bottom: 20px;
+
+  .logo-won-black {
+    width: 107px;
+    height: 32px;
+  }
+}
+
+.grid-footer {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+
+  h2 {
+    color: var(--black);
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  h2::after {
+    background: #3CD3C1;
+    content: "";
+    display: block;
+    height: 5px;
+    width: 22px;
+    position: absolute;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+
+  p, a {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+}
+
+.grid-footer-column {
+  display: grid;
+  gap: 80px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.copywriting {
+  color: var(--gray);
+  font-size: 12px;
+  margin-top: 50px;
+  text-align: center;
+}

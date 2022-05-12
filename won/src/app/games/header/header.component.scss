@@ -1,0 +1,45 @@
+header {
+  background-color: #06092BFF;
+}
+
+/* nav */
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  padding: 50px 60px;
+  a {
+    text-decoration: none;
+    color: var(--white);
+  }
+}
+
+.flex-nav-left {
+  align-items : center;
+  display: flex;
+  gap: 50px;
+  grid-column: 1;
+}
+
+.link::after {
+  background: var(--pink);
+  content: '';
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 3px;
+}
+
+.flex-nav-right {
+  align-items : center;
+  display: flex;
+  grid-column: 2;
+  gap: 30px;
+  justify-content: end;
+}
+
+.button-signIn {
+  background: var(--linear-gradient);
+  border-radius: 4px;
+  display: grid;
+  padding: 10px 25px;
+}
