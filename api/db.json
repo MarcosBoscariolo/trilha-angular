@@ -1,0 +1,12 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Marcos Augusto Boscariolo",
+      "anoNacimento": "2002/10/23",
+      "cursoMatriculado": [
+        "Angular"
+      ]
+    }
+  ]
+}
