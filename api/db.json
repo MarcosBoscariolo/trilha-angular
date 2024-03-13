@@ -3,10 +3,16 @@
     {
       "id": 1,
       "nome": "Marcos Augusto Boscariolo",
-      "anoNacimento": "2002/10/23",
-      "cursoMatriculado": [
-        "Angular"
-      ]
+      "email": "marcosboscariolo@gmail.com",
+      "ano_nascimento": "2002/10/23",
+      "curso_matriculado": "Direito"
+    },
+    {
+      "id": 2,
+      "nome": "Rodrigo Almeida de Souza",
+      "email": "rdrisouza@gmail.com",
+      "ano_nascimento": "1997/05/14",
+      "curso_matriculado": "Análise e desenvolvimento de sistemas"
     }
   ]
 }

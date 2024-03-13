@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatTableModule } from '@angular/material/table';
 import { AlunosRoutingModule } from './alunos-routing.module';
 import { ListarAlunosComponent } from './listar-alunos/listar-alunos.component';
 
@@ -11,7 +12,8 @@ import { ListarAlunosComponent } from './listar-alunos/listar-alunos.component';
   ],
   imports: [
     CommonModule,
-    AlunosRoutingModule
+    AlunosRoutingModule,
+    MatTableModule
   ]
 })
 export class AlunosModule { }
