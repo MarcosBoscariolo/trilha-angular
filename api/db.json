@@ -5,14 +5,24 @@
       "nome": "Marcos Augusto Boscariolo",
       "email": "marcosboscariolo@gmail.com",
       "ano_nascimento": "2002/10/23",
-      "cursos_matriculado": ["Git & GitHub", "HTML5 & CSS3", "Javascript", "Typescript", "Angular"]
+      "cursos_matriculado": [
+        "Git & GitHub",
+        "HTML5 & CSS3",
+        "Javascript",
+        "Typescript",
+        "Angular"
+      ]
     },
     {
       "id": 2,
       "nome": "Rodrigo Almeida de Souza",
       "email": "rdrisouza@gmail.com",
       "ano_nascimento": "1997/05/14",
-      "cursos_matriculado": ["Análise e desenvolvimento de sistemas"]
+      "cursos_matriculado": [
+        "React",
+        "NodeJS",
+        "Nest"
+      ]
     }
   ]
 }
